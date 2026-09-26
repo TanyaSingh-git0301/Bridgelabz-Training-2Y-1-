@@ -1,4 +1,4 @@
-package com.Arrays.Logical_Problems;
+package Arrays.Logical_Problems;
 
 import java.util.Scanner;
 public class RemoveDuplicate {

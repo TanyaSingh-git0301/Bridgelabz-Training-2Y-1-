@@ -1,4 +1,4 @@
-package com.Arrays.Leetcode;
+package Arrays.Leetcode;
 
 import java.util.*;
 public class Leetcode_41 {

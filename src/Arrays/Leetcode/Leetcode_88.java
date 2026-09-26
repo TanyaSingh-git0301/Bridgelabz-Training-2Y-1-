@@ -1,4 +1,4 @@
-package com.Arrays.Leetcode;
+package Arrays.Leetcode;
 
 public class Leetcode_88 {
 }
