@@ -13,10 +13,6 @@ public class Main {
 
         System.out.println();
         st.pop();
-        st.display();
-
-        System.out.println();
         st.peek();
-        st.display();
     }
 }

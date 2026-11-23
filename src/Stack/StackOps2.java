@@ -2,31 +2,31 @@ package Stack;
 
 public class StackOps2 {
     int arr[] = new int[5];
-    int top = 0;
+    int top = -1;
     public void push(int data){
-        if(top==arr.length){
+        if(top==arr.length-1){
             System.out.println("Stack is full");
             return;
         }
-        arr[0] = data;
-        top++;
+        arr[++top] = data;
     }
 
-    public int pop(){
+    public void pop(){
 
-        if (top == 0) {
+        if (top == -1) {
             System.out.println("Stack underflow");
-            return -1;
+            return;
         }
-        int data;
+        System.out.println("pop element: "+arr[top]);
         top--;
-        data=arr[top];
-        arr[top]=0;
-        return data;
     }
 
-    public int peek(){
-        return arr[top--];
+    public void peek(){
+        if(top==-1){
+            System.out.println("Stack full");
+            return;
+        }
+        System.out.println("Peek element: "+arr[top]);
     }
 
     public void display(){
